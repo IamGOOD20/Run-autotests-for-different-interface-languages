@@ -1,7 +1,7 @@
 # Run-autotests-for-different-interface-languages
 Implementation of automated testing of various web page interface languages. Using Selenium, Python and PyTest.
 
-## Task: run autotests for different interface languages
+## Goal: run autotests for different interface languages
 ## Tools: Python, PyTest, Seleniuum
 
 ### Steps:
