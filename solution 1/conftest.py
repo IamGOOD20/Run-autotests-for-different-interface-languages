@@ -10,7 +10,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope='class')
 def browser(request):
-    print('\nfinal tests start browser')
+    print('\nsolution 1 start browser')
     browser = webdriver.Chrome()
     language = request.config.getoption('language')
     if language:
@@ -20,7 +20,7 @@ def browser(request):
     else:
         raise pytest.UsageError('parameter not specified --language="language"')
     yield browser
-    print('\nfinal tests quit browser')
+    print('\nsolution 1 quit browser')
     browser.quit()
 
 
